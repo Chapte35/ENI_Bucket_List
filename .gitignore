@@ -1,4 +1,4 @@
-
+/.idea
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
@@ -8,3 +8,51 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/asset-mapper ###
+/public/assets/
+/assets/vendor/
+###< symfony/asset-mapper ###
+/.env.test
+/migrations/.gitignore
+/src/Entity/.gitignore
+/src/Repository/.gitignore
+/translations/.gitignore
+/.php-version
+/assets/styles/app.css
+/assets/app.js
+/config/packages/asset_mapper.yaml
+/templates/base.html.twig
+/assets/bootstrap.js
+/tests/bootstrap.php
+/compose.override.yaml
+/compose.yaml
+/assets/controllers.json
+/config/packages/debug.yaml
+/config/packages/doctrine.yaml
+/config/packages/doctrine_migrations.yaml
+/assets/controllers/hello_controller.js
+/importmap.php
+/config/packages/mailer.yaml
+/config/packages/messenger.yaml
+/config/packages/monolog.yaml
+/config/packages/notifier.yaml
+/bin/phpunit
+/phpunit.xml.dist
+/config/packages/security.yaml
+/config/routes/security.yaml
+/config/packages/translation.yaml
+/config/packages/twig.yaml
+/config/packages/validator.yaml
+/config/packages/web_profiler.yaml
+/config/routes/web_profiler.yaml
